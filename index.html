@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magazin</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="search....">
+            <button id="searchButton">Click</button>
+        </div>
+        <p id="noResultMessage" class="hidden">Товар не найден!</p>
+    </header>
+    <main>
+        <div id="products" class="product-list">
+            <!-- Продукты -->
+            <div class="product" data-name="Mars rug">
+                <h3>Mars rug</h3>
+                <p>100 Coins</p>
+            </div>
+            <div class="product" data-name="Keyboard sticker">
+                <h3>Keyboard sticker</h3>
+                <p>49 Coins</p>
+            </div>
+            <div class="product" data-name="Smart watch">
+                <h3>Smart watch</h3>
+                <p>899 Coins</p>
+            </div>
+            <div class="product" data-name="Wireless keyboard">
+                <h3>Wireless keyboard</h3>
+                <p>350 Coins</p>
+            </div>
+            <div class="product" data-name="Mouse">
+                <h3>Mouse</h3>
+                <p>359 Coins</p>
+            </div>
+            <div class="product" data-name="AirPods">
+                <h3>AirPods</h3>
+                <p>499 Coins</p>
+            </div>
+            <!-- Добавьте остальные товары аналогично -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
